@@ -1,8 +1,3 @@
-"""
-Sublime Yardoc
-by Revath S Kumar
-https://github.com/revathskumar/sublime-yardoc
-"""
 import sublime
 import sublime_plugin
 import re
