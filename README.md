@@ -1,18 +1,17 @@
-## SublimeText package for generating Yardoc
+# SublimeYardoc
+
+Package for Sublime Text 3.
 
 This is a fork of the original [sublime-yardoc](https://github.com/revathskumar/sublime-yardoc) with some my improvements.
 
----
+## Install
 
-### Installation
+**Via Package Control**:
 
-- In Command Palette (ctrl+shift+p or cmd+shift+p) select: `Package Control: Add Repository`
-  - Add this project's GitHub URL: https://github.com/phts/sublime-yardoc
+1. Open Command Palette &rarr; `Package Control: Add Repository` &rarr; `https://github.com/phts/SublimeYardoc`
+2. Open Command Palette &rarr; `Package Control: Install Package` &rarr; `SublimeYardoc`
 
-- In the Command Palette, select: `Package Control: Install Package`
-  - Search for `sublime-yardoc` and ensure the source references this repository
-
-### Usage
+## Usage
 
 Pressing **ctrl+enter** on the line of the method definition
 ```ruby
@@ -58,14 +57,15 @@ class Hello
 end
 ```
 
-### Settings
-
-Two settings are available:
+## Settings
 
 ```json
-    // Determines if empty comment lines have a trailing space
-    "trailing_spaces": false,
-    // Add an initial empty line at the beginning of the comment
-    "initial_empty_line": false
-```
+// Determines if empty comment lines have a trailing space
+"trailing_spaces": true,
+
+// Add an initial empty line at the beginning of the comment
+"initial_empty_line": true,
+
+// Add an empty line at the end of the comment
+"trailing_empty_line": false,
 ```

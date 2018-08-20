@@ -5,10 +5,9 @@ import os
 
 
 class YardocCommand(sublime_plugin.TextCommand):
-
     def load_config(self):
         self.settings = {}
-        settings = sublime.load_settings('yardoc.sublime-settings')
+        settings = sublime.load_settings('SublimeYardoc.sublime-settings')
         for setting in ['trailing_spaces', 'initial_empty_line', 'trailing_empty_line']:
             if settings.get(setting) is None:
                 continue
