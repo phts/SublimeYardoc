@@ -36,7 +36,7 @@ end
 
 ![Method yardoc](https://lh6.googleusercontent.com/-C9V-e0vzDq0/UERyoS0I4oI/AAAAAAAAG48/M2cptkMfmgA/s458/123.gif)
 
-Pressing **ctrl+enter** on the line of the class definition
+Pressing **shift+alt+enter** on the line of the class definition
 
 ```ruby
 class Hello
